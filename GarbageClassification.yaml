@@ -1,0 +1,19 @@
+
+
+train: E:\yolov5-My\dataset\train
+val: E:\yolov5-My\dataset\val
+
+nc: 10
+
+# Classes
+names:
+  0: battery
+  1: drug
+  2: plastic
+  3: metal
+  4: potato
+  5: carrot
+  6: daikon
+  7: brick
+  8: cobblestone
+  9: cup

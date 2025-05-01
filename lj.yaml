@@ -1,0 +1,19 @@
+train: E:\yolov11\dataset\images\train  # train images (relative to 'path') 4 images
+val: E:\yolov11\dataset\images\val  # val images (relative to 'path') 4 images
+
+nc: 13
+
+# class names
+names: ['battery', 
+  'drugoutpackage',
+  'drug',
+  'cup',
+  'plasticbottle',
+  'metalcan',
+  'potato',
+  'whitecarrot',
+  'carrot',
+  'porcelain',
+  'cobblestone',
+  'brick',
+  'clear plastic bottle']

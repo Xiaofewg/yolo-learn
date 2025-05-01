@@ -1,0 +1,26 @@
+description: Ultralytics YOLO11 model trained on E:\yolov5-My\data\GarbageClassification.yaml
+author: Ultralytics
+date: '2025-04-12T23:24:42.549311'
+version: 8.3.107
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: battery
+  1: drug
+  2: plastic
+  3: metal
+  4: potato
+  5: carrot
+  6: daikon
+  7: brick
+  8: cobblestone
+  9: cup
+args:
+  batch: 1
+  half: false
